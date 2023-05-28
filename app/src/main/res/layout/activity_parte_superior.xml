@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityParteSuperior"
+    android:background="@drawable/parte_superior">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btnCalentamiento"
+            android:layout_width="170dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="220dp"
+            android:layout_marginBottom="554dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/boton_calentamiento"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnEspalda"
+            android:layout_width="170dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="555dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/btnespalda"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/btnPecho"
+            android:layout_width="169dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="221dp"
+            android:layout_marginBottom="456dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/btnpecho"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/btnBiceps"
+            android:layout_width="171dp"
+            android:layout_height="62dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="454dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/btnbiceps"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/btnTriceps"
+            android:layout_width="170dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="219dp"
+            android:layout_marginBottom="352dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/btntriceps"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/btnHombros"
+            android:layout_width="171dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="355dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/btnhombros"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnAbdomen"
+            android:layout_width="169dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="223dp"
+            android:layout_marginBottom="249dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/btnabdomen"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/btnEstiramiento"
+            android:layout_width="168dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="247dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/btnestiramiento"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

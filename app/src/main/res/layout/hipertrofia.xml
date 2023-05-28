@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="375dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@drawable/portada2"
+        android:contentDescription="@string/imagenportada"
+        android:background="@drawable/border"
+        android:src="@drawable/portada2"/>
+
+
+    <TextView
+        android:id="@+id/txtParrafo1"
+        android:layout_width="420dp"
+        android:layout_height="356dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/poppins_normal"
+        android:text="@string/texto_hipertrofia"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/txtFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="688dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="@font/poppins_negrita"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="	#ffe135"
+        android:contentDescription="@string/texto_footer"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

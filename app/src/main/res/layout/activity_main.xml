@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#020202">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="92dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="149dp"
+        android:indeterminateTint="#2a52be" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/tigmar_normal"
+        android:text="@string/txtPrincipal"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="320dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="42dp"
+        android:fontFamily="@font/tigmar_normal"
+        android:text="@string/txtBienvenido"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="44sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="310dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="38dp"
+        android:contentDescription="@string/titulo_splash"
+        android:src="@drawable/logo" />
+
+
+</RelativeLayout>
